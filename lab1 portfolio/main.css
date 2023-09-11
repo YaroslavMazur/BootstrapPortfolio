@@ -4,7 +4,8 @@ body {
     background: #f2f6e9;
     font-family: "Space Grotesk", "Helvetica";
 }
-:root{
+
+:root {
     --color-main: #325077;
 }
 
@@ -12,10 +13,10 @@ body {
 .navbar {
     top: 0;
     left: 0;
-    position:fixed;
+    position: fixed;
     background: var(--color-main);
     padding: 5px 40px;
-    z-index:100;
+    z-index: 1000;
     width: 100%;
 }
 
@@ -56,15 +57,16 @@ body {
     padding: 0;
     margin-bottom: 0;
     justify-content: space-between;
-    
+
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     background-color: rgb(255, 255, 255, 0.1);
-    
+
 }
-.img-cont{
+
+.img-cont {
     height: 100%;
 }
 
@@ -83,33 +85,56 @@ body {
 /*карусель
 */
 
-#demo{
+#demo {
     height: 400px;
     width: 100%;
 }
-.carousel-item{
+
+.carousel-item {
     background-color: rgb(224, 227, 232);
     height: 100%;
 
 }
 
-.carousel-item *{
+.carousel-item * {
     height: 100%;
 }
 
-.page-footer{
+.page-footer {
     background-color: var(--color-main);
 }
 
-#about{
+#about {
     background-color: var(--color-main);
 }
 
-#about img{
+#about img {
     max-height: 80px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: var(--color-main);
+}
+
+.aboutCaption {
+    background-color: rgb(224, 227, 232);
+    ;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
 }
